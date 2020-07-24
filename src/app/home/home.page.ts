@@ -7,6 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  text = "First Application";
+
+  onChangeText() {
+    this.text = 'Hello World!';
+  }
 
 }
+
